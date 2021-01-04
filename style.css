@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+section::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.header-area{
+    background: url("images/header-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    height:700px;
+    padding: 100px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+    
+}
+.half-width h2{
+    font-weight: 400;
+    font-size: 35px;
+    color:#2B2F32;
+    line-height: 10px;
+}
+.half-width h1{
+    font-weight: 700;
+    font-size: 45px;
+    color:#EC4C7A;
+}
+.half-width img{
+    width:100%;
+    height: auto;
+}
+.half-width p{
+    color:#dimgrey;;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+}
+.half-width a{
+    text-decoration: none;
+    color:#fff;
+    font-size:16px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    background-image: linear-gradient(#EC4F90, #ED4B72);
+    border-radius: 5px;
+}
+.half-width h3, .latest-work h3, h3{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.latest-work h3{
+    margin: 50px auto;
+    text-align: center;
+}
+.half-width a.cv{
+    text-transform: capitalize;
+}
+.biography-area{
+    background: url("images/biography-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    height:auto;
+    padding:100px 0;
+}
+.biography{
+    margin-top: 100px;
+   
+}
+.single-work {
+    width: 30%;
+    margin-right: 3%;
+    height: 300px;
+    float: left;
+}
+.single-work img{
+    width:100%;
+}
+.latest-work-area{
+    background: url("images/latest-work-bg.png") no-repeat scroll 0 0 / 100% 100%;
+    margin: 100px auto;
+}
+.latest-work{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.developer h4{
+font-size: 40px;
+font-weight: 500;
+line-height: 10px;
+}
+
+.developer h5{
+color: orange;
+font-size: 18px;
+font-weight: 400;
+}
+.developer p{
+    color:dimgrey;
+}
+.experience-area{
+    
+    background: url("images/exp-bg.png") no-repeat;
+    margin: 100px auto;
+    background-position: left center;
+
+}
+.developer {
+    box-shadow: 5px 7px 40px grey;
+    padding: 20px 40px;
+    width: 45%;
+    margin-right: 20px;
+    float: right;
+    height: 350px;
+}
+#baby{
+    border-left:7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full{
+    border-left:7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size:12px;
+}
