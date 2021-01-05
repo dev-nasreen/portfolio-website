@@ -33,6 +33,7 @@ section::after{
     font-size: 45px;
     color:#EC4C7A;
 }
+
 .half-width img{
     width:100%;
     height: auto;
@@ -52,15 +53,14 @@ section::after{
     background-image: linear-gradient(#EC4F90, #ED4B72);
     border-radius: 5px;
 }
-.half-width h3, .latest-work h3, h3{
+.half-width h3, .latest-work h3, h3 {
     font-size: 35px;
     text-transform: capitalize;
     font-weight: 400;
-}
-.latest-work h3{
     margin: 50px auto;
     text-align: center;
 }
+
 .half-width a.cv{
     text-transform: capitalize;
 }
@@ -70,7 +70,7 @@ section::after{
     padding:100px 0;
 }
 .biography{
-    margin-top: 100px;
+    margin-top: 0;
    
 }
 .single-work {
@@ -94,7 +94,6 @@ section::after{
 .developer h4{
 font-size: 40px;
 font-weight: 500;
-line-height: 10px;
 }
 
 .developer h5{
@@ -118,7 +117,7 @@ font-weight: 400;
     width: 45%;
     margin-right: 20px;
     float: right;
-    height: 350px;
+    height: 400px;
 }
 #baby{
     border-left:7px solid;
